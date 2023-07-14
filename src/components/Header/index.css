@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.header-container {
+  background-color: #cbd5e1;
+  margin-top: 65px;
+  text-align: center;
+  align-self: stretch;
+}
+.header-text {
+  color: #475569;
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .header-text {
+    font-size: 32px;
+  }
+}
